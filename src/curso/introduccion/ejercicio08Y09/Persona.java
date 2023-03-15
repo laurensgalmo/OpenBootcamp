@@ -1,4 +1,4 @@
-package curso.introduccion.ejercicio08;
+package curso.introduccion.ejercicio08Y09;
 
 /**
  * Para practicar la encapsulación:
