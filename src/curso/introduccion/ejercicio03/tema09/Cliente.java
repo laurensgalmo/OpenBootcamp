@@ -1,4 +1,4 @@
-package curso.introduccion.ejercicio01.tema09;
+package curso.introduccion.ejercicio03.tema09;
 
 /**
  * Una vez creada la clase, crea una nueva clase Cliente que herede de Persona,
@@ -15,24 +15,24 @@ package curso.introduccion.ejercicio01.tema09;
  *
  */
 
-public class Trabajador extends Persona {
+public class Cliente extends Persona {
 
 	// Atributo
 
-	private double salario;
+	private double credito;
 
 	// Getters y Setters
 
-	public double getSalario() {
-		return salario;
+	public double getCredito() {
+		return credito;
 	}
 
-	public void setSalario(double salario) {
-		this.salario = salario;
+	public void setCredito(double credito) {
+		this.credito = credito;
 	}
 
 	@Override
 	public String toString() {
-		return "Trabajador [salario=" + salario + "]" + " " + super.toString();
+		return "Cliente [credito=" + credito + "]" + " " + super.toString();
 	}
 }
