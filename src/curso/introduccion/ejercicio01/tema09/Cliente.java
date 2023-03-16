@@ -1,4 +1,4 @@
-package curso.introduccion.ejercicio08Y09;
+package curso.introduccion.ejercicio01.tema09;
 
 /**
  * Una vez creada la clase, crea una nueva clase Cliente que herede de Persona,

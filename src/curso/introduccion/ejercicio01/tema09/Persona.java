@@ -1,4 +1,4 @@
-package curso.introduccion.ejercicio08Y09;
+package curso.introduccion.ejercicio01.tema09;
 
 /**
  * Para practicar la encapsulación:
@@ -51,6 +51,8 @@ public class Persona {
 	public void setTelefono(int telefono) {
 		this.telefono = telefono;
 	}
+
+	// toString
 
 	@Override
 	public String toString() {

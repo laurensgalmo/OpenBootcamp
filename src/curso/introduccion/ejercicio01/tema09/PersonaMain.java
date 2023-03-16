@@ -1,4 +1,4 @@
-package curso.introduccion.ejercicio08Y09;
+package curso.introduccion.ejercicio01.tema09;
 
 /**
  * PARTE 1:

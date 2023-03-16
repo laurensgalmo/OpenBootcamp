@@ -1,6 +1,14 @@
-package curso.introduccion.ejercicio08Y09;
+package curso.introduccion.ejercicio02.tema09;
 
 /**
+ * Crea una clase Persona con las siguientes variables:
+ * 
+ * La edad
+ * 
+ * El nombre
+ * 
+ * El teléfono
+ * 
  * Una vez creada la clase, crea una nueva clase Cliente que herede de Persona,
  * esta nueva clase tendrá la variable credito solo para esa clase.
  * 
@@ -15,24 +23,31 @@ package curso.introduccion.ejercicio08Y09;
  *
  */
 
-public class Trabajador extends Persona {
+public class Cliente extends Persona {
 
 	// Atributo
 
-	private double salario;
+	private double credito;
+
+	public Cliente(int edad, String nombre, int telefono, double credito) {
+		super(edad, nombre, telefono);
+		this.credito = credito;
+	}
 
 	// Getters y Setters
 
-	public double getSalario() {
-		return salario;
+	public double getCredito() {
+		return credito;
 	}
 
-	public void setSalario(double salario) {
-		this.salario = salario;
+	public void setCredito(int credito) {
+		this.credito = credito;
 	}
+
+	// toString
 
 	@Override
 	public String toString() {
-		return "Trabajador [salario=" + salario + "]" + " " + super.toString();
+		return "Cliente [credito=" + credito + "]" + " " + super.toString();
 	}
 }

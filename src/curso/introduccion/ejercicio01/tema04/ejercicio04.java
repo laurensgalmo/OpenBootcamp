@@ -1,4 +1,4 @@
-package curso.introduccion.ejercicio04;
+package curso.introduccion.ejercicio01.tema04;
 
 /**
  * Ejercicios de Introduccion con OpenBootcamp
